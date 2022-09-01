@@ -1,0 +1,53 @@
+{
+  "fighters": [
+    {
+      "id": "1",
+      "name": "Ciryl Gane",
+      "win": "10",
+      "loose": "1"
+    },
+    {
+      "id": "2",
+      "name": "Benoit Saint Denis",
+      "win": "9",
+      "loose": "1"
+    },
+    {
+     "id": "3",
+     "name": "Nassourdine Imavov",
+      "win": "11",
+      "loose": "3"
+    },
+    {
+     "id": "4",
+     "name": "Charles Jourdain",
+      "win": "13",
+      "loose": "5"
+    },
+    {
+      "id": "5",
+      "name": "Gabriel Miranda",
+      "win": "16",
+      "loose": "5"
+    },
+    {
+      "id": "6",
+      "name": "Tai Tuivasa",
+      "win": "15",
+      "loose": "3"
+    },
+    {
+     "id": "7",
+     "name": "Nataniel Wood",
+     "win": "18",
+      "loose": "5"
+    },
+    {
+     "id": "8",
+     "name": "Joachim Buckley",
+      "win": "15",
+      "loose": "4"
+    }
+  ]
+ 
+}
