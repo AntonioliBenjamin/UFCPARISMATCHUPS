@@ -4,7 +4,13 @@ In UFC Paris matchup's you can try matchup's with fighter's in this fight card.
 
 Creat a folder `img` and drop all images inside.
 
-You need install JSON SERVER and copy/paste ---> `json-server --watch db.json`
+You need install JSON SERVER 
+
+`npm install -g json-server` 
+
+copy/paste 
+
+`json-server --watch db.json`
 
 Select 2 fighters and click on the button "Let's Fight"
 
