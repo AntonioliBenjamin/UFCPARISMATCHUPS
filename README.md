@@ -12,6 +12,8 @@ copy/paste
 
 `json-server --watch db.json`
 
+Go live `index.html`      
+
 Select 2 fighters and click on the button "Let's Fight"
 
 
