@@ -182,55 +182,57 @@ fightBtn.addEventListener('click', (e) => {
       if (dif < 5) {
        chosenValue = Math.random(0,1); 
          if (chosenValue > 0.50) {
-            fightBtn.innerHTML = data[idFighterR].name + ' win';
-              resultL.style.filter = 'blur(1em)';
-                resultR.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
-                  vs.style.filter = "none";
-                    setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
-                      fightBtn.addEventListener('click', (e) => {  location.reload();});
+         fightBtn.innerHTML = data[idFighterR].name + ' win';
+         resultL.style.filter = 'blur(1em)';
+         resultR.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
+         vs.style.filter = "none";
+         setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
+         fightBtn.addEventListener('click', (e) => {  location.reload();});
 
           } else {
             fightBtn.innerHTML = data[idFighterL].name + ' win';
-              resultR.style.filter = 'blur(1em)';
-                resultL.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
-                  vs.style.filter = "none";
-                    setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
-                      fightBtn.addEventListener('click', (e) => {  location.reload();});  
+            resultR.style.filter = 'blur(1em)';
+            resultL.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
+            vs.style.filter = "none";
+            setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
+            fightBtn.addEventListener('click', (e) => {  location.reload();});  
           }
 //-----------------------------60/40---------------------//
       } else if ( dif >= 5 && dif <= 7) {
         chosenValue = Math.random(0,1); 
             if (ratioL > ratioR && chosenValue < 0.60) {        
               fightBtn.innerHTML = data[idFighterL].name + ' win';
-                resultR.style.filter = 'blur(1em)';
-                  resultL.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
-                  vs.style.filter = "none";
-                      setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
-                        fightBtn.addEventListener('click', (e) => {  location.reload();}); 
+              resultR.style.filter = 'blur(1em)';
+               resultL.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
+               vs.style.filter = "none";
+               setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
+               fightBtn.addEventListener('click', (e) => {  location.reload();}); 
+                
             } else {
               fightBtn.innerHTML = data[idFighterR].name + ' win';
-                resultL.style.filter = 'blur(1em)';
-                  resultR.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
-                  vs.style.filter = "none";
-                      setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
-                        fightBtn.addEventListener('click', (e) => {  location.reload();});               
+               resultL.style.filter = 'blur(1em)';
+                resultR.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
+                vs.style.filter = "none";
+                setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
+                fightBtn.addEventListener('click', (e) => {  location.reload();});               
              }
         }else if ( dif >= 5 && dif <= 7) {
             chosenValue = Math.random(0,1); 
               if (ratioR > ratioL && chosenValue < 0.60) {  
                 fightBtn.innerHTML = data[idFighterR].name + ' win';
-                  resultL.style.filter = 'blur(1em)';
-                    resultR.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
-                      vs.style.filter = "none";
-                        setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
-                          fightBtn.addEventListener('click', (e) => {  location.reload();});  
+                resultL.style.filter = 'blur(1em)';
+                resultR.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
+                vs.style.filter = "none";
+                setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
+                fightBtn.addEventListener('click', (e) => {  location.reload();});
+                  
               } else {
                fightBtn.innerHTML = data[idFighterL].name + ' win';
-                resultR.style.filter = 'blur(1em)';
-                  resultL.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
-                  vs.style.filter = "none";
-                      setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
-                        fightBtn.addEventListener('click', (e) => {  location.reload();});   
+               resultR.style.filter = 'blur(1em)';
+               resultL.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
+               vs.style.filter = "none";
+               setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
+               fightBtn.addEventListener('click', (e) => {  location.reload();});   
               }
           }
 //-------------------------------70/30--------------------//
@@ -239,72 +241,76 @@ fightBtn.addEventListener('click', (e) => {
            console.log(chosenValue +' 70/30');
             if (ratioL > ratioR && chosenValue < 0.70) {        
               fightBtn.innerHTML = data[idFighterL].name + ' win';
-                resultR.style.filter = 'blur(1em)';
-                  resultL.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
-                  vs.style.filter = "none";
-                      setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
-                        fightBtn.addEventListener('click', (e) => {  location.reload();}); 
+              resultR.style.filter = 'blur(1em)';
+              resultL.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
+              vs.style.filter = "none";
+              setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
+              fightBtn.addEventListener('click', (e) => {  location.reload();}); 
+                
              } else {
               fightBtn.innerHTML = data[idFighterR].name + ' win';
-                resultL.style.filter = 'blur(1em)';
-                  resultR.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
-                  vs.style.filter = "none";
-                      setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
-                        fightBtn.addEventListener('click', (e) => {  location.reload();}); 
+              resultL.style.filter = 'blur(1em)';
+              resultR.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
+              vs.style.filter = "none";
+              setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
+              fightBtn.addEventListener('click', (e) => {  location.reload();}); 
              }
 
         }else if ( dif > 7 && dif <= 10) {
           chosenValue = Math.random(0,1); 
             if (ratioR > ratioL && chosenValue < 0.70) {  
               fightBtn.innerHTML = data[idFighterR].name + ' win';
-                resultL.style.filter = 'blur(1em)';
-                  resultR.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
-                    vs.style.filter = "none";
-                      setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
-                        fightBtn.addEventListener('click', (e) => {  location.reload();});  
+              resultL.style.filter = 'blur(1em)';
+              resultR.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
+              vs.style.filter = "none";
+              setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
+              fightBtn.addEventListener('click', (e) => {  location.reload();});  
+                
             } else {
               fightBtn.innerHTML = data[idFighterL].name + ' win';
-                resultR.style.filter = 'blur(1em)';
-                  resultL.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
-                    vs.style.filter = "none";
-                      setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
-                        fightBtn.addEventListener('click', (e) => {  location.reload();});                
+              resultR.style.filter = 'blur(1em)';
+              resultL.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
+              vs.style.filter = "none";
+              setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
+              fightBtn.addEventListener('click', (e) => {  location.reload();});                
           };
 //---------------------------90/10-------------------------------//          
         } else if (dif > 10) {
        chosenValue = Math.random(0,1); 
           if (ratioL > ratioR && chosenValue < 0.90) {        
             fightBtn.innerHTML = data[idFighterL].name + ' win';
-              resultR.style.filter = 'blur(1em)';
-                resultL.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
-                  vs.style.filter = "none";
-                    setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
-                      fightBtn.addEventListener('click', (e) => {  location.reload();}); 
+            resultR.style.filter = 'blur(1em)';
+            resultL.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
+            vs.style.filter = "none";
+            setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
+            fightBtn.addEventListener('click', (e) => {  location.reload();}); 
+              
           } else {
             fightBtn.innerHTML = data[idFighterR].name + ' win';
-              resultL.style.filter = 'blur(1em)';
-                resultR.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
-                  vs.style.filter = "none";
-                    setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
-                      fightBtn.addEventListener('click', (e) => {  location.reload();});             
+            resultL.style.filter = 'blur(1em)';
+            resultR.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
+            vs.style.filter = "none";
+            setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
+            fightBtn.addEventListener('click', (e) => {  location.reload();});             
           }
 
         }else if ( dif > 10) {
        chosenValue = Math.random(0,1); 
           if (ratioR > ratioL && chosenValue < 0.90) {  
              fightBtn.innerHTML = data[idFighterR].name + ' win';
-              resultL.style.filter = 'blur(1em)';
-                resultR.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
-                  vs.style.filter = "none";
-                    setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
-                      fightBtn.addEventListener('click', (e) => {  location.reload();});  
+             resultL.style.filter = 'blur(1em)';
+             resultR.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
+             vs.style.filter = "none";
+             setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
+             fightBtn.addEventListener('click', (e) => {  location.reload();}); 
+              
           } else {
              fightBtn.innerHTML = data[idFighterL].name + ' win';
-              resultR.style.filter = 'blur(1em)';
-                resultL.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
-                  vs.style.filter = "none";
-                    setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
-                      fightBtn.addEventListener('click', (e) => {  location.reload();});              
+             resultR.style.filter = 'blur(1em)';
+             resultL.style.filter = 'drop-shadow(0 -6mm 4mm rgb(178, 222, 39))';
+             vs.style.filter = "none";
+             setTimeout(function(){ fightBtn.innerHTML = "Restart"; }, 3000);
+             fightBtn.addEventListener('click', (e) => {  location.reload();});              
           }             
           };
         })
