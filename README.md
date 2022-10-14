@@ -6,9 +6,7 @@ Creat a folder `img` and drop all images inside.
 
 You need install JSON SERVER 
 
-`npm install -g json-server` 
-
-copy/paste 
+`npm install -g json-server`  
 
 `json-server --watch db.json`
 
